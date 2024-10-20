@@ -6,8 +6,7 @@
 <p>
   <a href="#introduction"><strong>Introduction</strong></a> ·
   <a href="#tech-stack"><strong>Tech Stack</strong></a> ·
-  <a href="#author"><strong>Author</strong></a> ·
-  <a href="#license"><strong>License</strong></a>
+  <a href="#author"><strong>Author</strong></a>
 </p>
 <br/>
 
