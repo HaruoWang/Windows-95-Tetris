@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <script>
+      setTimeout(() => {
+        let favicon_video_image_counter = 0;
+        let favicon_video_icon_tag = document.querySelector("link[rel='icon']");
+        let favicon_video_images = [
+    "https://favicongenerator.s3.amazonaws.com/0242b1284e14.png","https://favicongenerator.s3.amazonaws.com/7d9783c41a60a.png","https://favicongenerator.s3.amazonaws.com/d0f0c15e4b988.png","https://favicongenerator.s3.amazonaws.com/03e8775d1ec68.png","https://favicongenerator.s3.amazonaws.com/1abb1d9347843.png","https://favicongenerator.s3.amazonaws.com/766cfcde7f357.png","https://favicongenerator.s3.amazonaws.com/04481ed13f93d.png","https://favicongenerator.s3.amazonaws.com/3c6b4c9c9f2f.png","https://favicongenerator.s3.amazonaws.com/8ea72d6d08c67.png","https://favicongenerator.s3.amazonaws.com/e51844afa8f83.png","https://favicongenerator.s3.amazonaws.com/28a9c2862d3d4.png","https://favicongenerator.s3.amazonaws.com/af7204c587c87.png","https://favicongenerator.s3.amazonaws.com/f191deec94b6d.png","https://favicongenerator.s3.amazonaws.com/382728cd89bb5.png","https://favicongenerator.s3.amazonaws.com/d4e54c3aa7bd9.png","https://favicongenerator.s3.amazonaws.com/aed8d08435844.png","https://favicongenerator.s3.amazonaws.com/bdf5458f91c8.png","https://favicongenerator.s3.amazonaws.com/4190fea57ac42.png","https://favicongenerator.s3.amazonaws.com/96361ed4a7b7b.png","https://favicongenerator.s3.amazonaws.com/fe1350536bb7a.png","https://favicongenerator.s3.amazonaws.com/62837a154c017.png","https://favicongenerator.s3.amazonaws.com/55d1d5928363.png","https://favicongenerator.s3.amazonaws.com/926cb14a7c0ae.png","https://favicongenerator.s3.amazonaws.com/64462d47f654c.png","https://favicongenerator.s3.amazonaws.com/15ed4dc78f558.png","https://favicongenerator.s3.amazonaws.com/c1f0a560b7fa6.png","https://favicongenerator.s3.amazonaws.com/055227a29f4a7.png","https://favicongenerator.s3.amazonaws.com/b38298ee40f0f.png","https://favicongenerator.s3.amazonaws.com/961a684195189.png","https://favicongenerator.s3.amazonaws.com/5c10caf310516.png","https://favicongenerator.s3.amazonaws.com/d76ad23ac02b3.png","https://favicongenerator.s3.amazonaws.com/bb41ea60776e4.png","https://favicongenerator.s3.amazonaws.com/9b6549ee9c8f1.png","https://favicongenerator.s3.amazonaws.com/7982c4b34cee1.png","https://favicongenerator.s3.amazonaws.com/fb00d833ce48.png","https://favicongenerator.s3.amazonaws.com/96d6ea28a96fa.png","https://favicongenerator.s3.amazonaws.com/f588ff30bdf7c.png","https://favicongenerator.s3.amazonaws.com/80afd5c7e3e29.png","https://favicongenerator.s3.amazonaws.com/c0eab16b9b425.png","https://favicongenerator.s3.amazonaws.com/e4f66d496653e.png","https://favicongenerator.s3.amazonaws.com/22d90e0d8b803.png","https://favicongenerator.s3.amazonaws.com/87b8de832fbdb.png","https://favicongenerator.s3.amazonaws.com/d39a40edf785e.png","https://favicongenerator.s3.amazonaws.com/069a72a5718dd.png","https://favicongenerator.s3.amazonaws.com/b47be0c2f7701.png","https://favicongenerator.s3.amazonaws.com/1eb40758ab98c.png","https://favicongenerator.s3.amazonaws.com/d3d538f235141.png","https://favicongenerator.s3.amazonaws.com/38aef3eb9f558.png","https://favicongenerator.s3.amazonaws.com/ad9aea8dc2a84.png","https://favicongenerator.s3.amazonaws.com/455685a0c5ace.png","https://favicongenerator.s3.amazonaws.com/7c2b5f29ce88e.png","https://favicongenerator.s3.amazonaws.com/c1eff5f12467b.png","https://favicongenerator.s3.amazonaws.com/6fea7fa45d175.png","https://favicongenerator.s3.amazonaws.com/4467f9d4c4493.png","https://favicongenerator.s3.amazonaws.com/1744aa799273b.png","https://favicongenerator.s3.amazonaws.com/6c5ffc7ef90c8.png","https://favicongenerator.s3.amazonaws.com/81b54ff55c48c.png","https://favicongenerator.s3.amazonaws.com/79165929f938e.png","https://favicongenerator.s3.amazonaws.com/40c0bd70c7afc.png","https://favicongenerator.s3.amazonaws.com/3bde0c0411e94.png","https://favicongenerator.s3.amazonaws.com/cfe31369fb3f3.png","https://favicongenerator.s3.amazonaws.com/eb9b3c3f4cb2f.png","https://favicongenerator.s3.amazonaws.com/37ee08272c6ae.png","https://favicongenerator.s3.amazonaws.com/66ca17d33aad9.png","https://favicongenerator.s3.amazonaws.com/4957f1cb29465.png","https://favicongenerator.s3.amazonaws.com/b4508b379af5e.png","https://favicongenerator.s3.amazonaws.com/ce0b986619386.png","https://favicongenerator.s3.amazonaws.com/4abc6861ce8c5.png","https://favicongenerator.s3.amazonaws.com/fcf8b6f09e097.png","https://favicongenerator.s3.amazonaws.com/d2e532c9436e8.png","https://favicongenerator.s3.amazonaws.com/0b42464abfaa9.png","https://favicongenerator.s3.amazonaws.com/c66de63f95fcd.png","https://favicongenerator.s3.amazonaws.com/3f24a5e416c66.png","https://favicongenerator.s3.amazonaws.com/a8ef6aa34caba.png","https://favicongenerator.s3.amazonaws.com/1fbe3d10eb733.png","https://favicongenerator.s3.amazonaws.com/d41b60c694d9b.png","https://favicongenerator.s3.amazonaws.com/429a8d127f6a4.png","https://favicongenerator.s3.amazonaws.com/6ac34ff885d2f.png","https://favicongenerator.s3.amazonaws.com/0261545471051.png","https://favicongenerator.s3.amazonaws.com/8652d1dde1fc4.png","https://favicongenerator.s3.amazonaws.com/29c9cd5bf415d.png","https://favicongenerator.s3.amazonaws.com/87c6d650bb3a2.png","https://favicongenerator.s3.amazonaws.com/832c4a5a460ce.png","https://favicongenerator.s3.amazonaws.com/d2c0dbac548be.png","https://favicongenerator.s3.amazonaws.com/2caa2cfa8d2b9.png","https://favicongenerator.s3.amazonaws.com/0dd547e77f9f1.png","https://favicongenerator.s3.amazonaws.com/880ee152e335e.png","https://favicongenerator.s3.amazonaws.com/5e6e73b76b2f9.png","https://favicongenerator.s3.amazonaws.com/dea28a1184e7a.png","https://favicongenerator.s3.amazonaws.com/365df16d22913.png","https://favicongenerator.s3.amazonaws.com/0b4e89c7630d9.png","https://favicongenerator.s3.amazonaws.com/bc2671026a2e4.png","https://favicongenerator.s3.amazonaws.com/370beb00c690b.png","https://favicongenerator.s3.amazonaws.com/793e1be42788f.png","https://favicongenerator.s3.amazonaws.com/196020aeabee9.png","https://favicongenerator.s3.amazonaws.com/38c3e4b13bdfa.png","https://favicongenerator.s3.amazonaws.com/4dc240d8c3283.png","https://favicongenerator.s3.amazonaws.com/a87c93bafa1a8.png","https://favicongenerator.s3.amazonaws.com/576b8f65aa5de.png","https://favicongenerator.s3.amazonaws.com/578021512e842.png"];
+        async function favicon_video_to_data_url(url, callback) {
+          let xhr = new XMLHttpRequest();
+          xhr.onload = function () {
+            let reader = new FileReader();
+            reader.onloadend = function () {
+              callback(reader.result);
+            };
+            reader.readAsDataURL(xhr.response);
+          };
+          xhr.open("GET", url);
+          xhr.responseType = "blob";
+          xhr.send();
+        }
+      
+        let favicon_video_loaded_images = [];
+      
+        favicon_video_images.map((url, idx) => {
+          favicon_video_to_data_url(url, function (dataUrl) {
+            favicon_video_loaded_images[idx] = dataUrl;
+          });
+        });
+      
+        setInterval(function () {
+          if(favicon_video_loaded_images[favicon_video_image_counter]) {
+            favicon_video_icon_tag.href = favicon_video_loaded_images[
+              favicon_video_image_counter
+            ].replace("application/octet-stream", "image/png");
+          }
+          if (
+            favicon_video_image_counter ==
+            favicon_video_loaded_images.length - 1
+          )
+            favicon_video_image_counter = 0;
+          else favicon_video_image_counter++;
+        }, 100);
+      }, 2000);
+    </script>
+    <script type="module">
+      import { textFlag } from "https://unpkg.com/cursor-effects@latest/dist/esm.js";
+      new textFlag({text: "Start me up"});
+    </script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Windows 95 Tetris</title>
+    <meta name="description" content="Relive the nostalgia of 90s with Windows 95 Tetris! Enjoy the retro look and feel as you stack and rotate blocks to clear lines.">
+    <meta property="og:title" content="Windows 95 Tetris">
+    <meta property="og:description" content="Relive the nostalgia of 90s with Windows 95 Tetris! Enjoy the retro look and feel as you stack and rotate blocks to clear lines.">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:image" content="/og.png">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Windows 95 Tetris">
+    <meta name="twitter:description" content="Relive the nostalgia of 90s with Windows 95 Tetris! Enjoy the retro look and feel as you stack and rotate blocks to clear lines.">
+    <meta name="twitter:image:type" content="image/png">
+    <meta name="twitter:image:width" content="1200">
+    <meta name="twitter:image:height" content="630">
+    <meta name="twitter:image" content="/og.png">
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
